@@ -2,7 +2,7 @@
 
 ## Seller's GrandPrix
 
-Prototype of a website. You have a list of places (customers), you choose some of then and our website show you the best route to go down the places.
+Prototype of a website. You have a list of places (customers), you choose some of them and our website show you the best route to go down the places.
 
 You can see route information (time and distance). Partial information (bewteen customers) and total information (all the route)
 
