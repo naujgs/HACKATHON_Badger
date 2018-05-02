@@ -76,9 +76,7 @@
           <td>Andrea</td><td>Ruta 1</td><td>00:13:40</td>
         </tr>
       </table>
-
     </div>
-
 
     <script>
       function initMap() {
@@ -87,16 +85,13 @@
         var granada = {lat: 37.1809411, lng: -3.6262914};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 13,
-
           center: granada
         });
-
         directionsDisplay.setMap(map);
 
         document.getElementById('submit').addEventListener('click', function() {
           calculateAndDisplayRoute(directionsService, directionsDisplay);
         });
-
 
         var contentString = '<div id="content">'+
             '<div id="siteNotice">'+
@@ -119,10 +114,6 @@
         });
 
       }  //initMap
-
-
-
-
 
       function calculateAndDisplayRoute(directionsService, directionsDisplay) {
         var waypts = [];
@@ -173,8 +164,6 @@
       }  //calculateAndDisplayRoute
 
     </script>
-
-
 
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjPVqGPLi_TgI2fHFIpiNE6v7ibY1QNuo&callback=initMap">
